@@ -21,7 +21,7 @@ if StrictVersion(telethon_version) >= StrictVersion('1.0'):
     import telethon.sync
 
 
-CAPTION_MAX_LENGTH = 200
+CAPTION_MAX_LENGTH = 1024
 
 
 def phone_match(value):
